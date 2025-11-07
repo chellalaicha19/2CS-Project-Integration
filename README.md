@@ -3,7 +3,7 @@
 A comprehensive distributed robotics control system developed as a team project, featuring real-time control, computer vision, and system monitoring capabilities.
 
 ## 🚀 Quick Navigation
-- [Projects Overview](#project-Components)
+- [Projects Overview](#project-components)
 - [Architecture](#system-architecture) 
 - [Workflow](#system-workflow)
 - [Technical Features](#key-technical-feature)
