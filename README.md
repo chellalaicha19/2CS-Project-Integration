@@ -4,13 +4,14 @@ A comprehensive distributed robotics control system developed as a team project,
 
 ## 🚀 Quick Navigation
 - [Projects Overview](#project-components)
+- [System Demonstration](#demo)
 - [Architecture](#system-architecture) 
 - [Workflow](#system-workflow)
 - [Technical Features](#key-technical-feature)
 - [Project Details](#specific-details-about-the-project)
 - [Future Insights](#future-insights)
 
-## 📦 Project Components <a id="project-Components"></a>
+## 📦 Project Components <a id="project-components"></a>
 
 | Component | Role | Technologies | Repository |
 |-----------|------|--------------|------------|
@@ -20,7 +21,7 @@ A comprehensive distributed robotics control system developed as a team project,
 | **Live Streaming Module** | Real-time object detection with YOLOv5 | Python, OpenCV, YOLOv5 | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Livestream-code) |
 | **System Monitoring** | Raspberry Pi health monitoring | Python, System Monitoring | [:link: View Repository](https://github.com/7afidhou/2CS_Project_RaspberryPi-status-code) |
 
-## 🎥 System Demonstration
+## 🎥 System Demonstration <a id="demo"></a>
 
 *Complete robotic system with 4DOF arm and mobile platform*
 
@@ -28,7 +29,7 @@ A comprehensive distributed robotics control system developed as a team project,
 
 *Web-based control dashboard including detected objects and system status*
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/dashboard.jng)
 
 
 ## 🏗️ System Architecture <a id="system-architecture"></a>
@@ -136,7 +137,7 @@ Status Updates → All components report back to main control app
 ## Specific Details About the Project: <a id="specific-details-about-the-project"></a>
 - Hardware: Raspberry Pi 3, Pi Camera, 4 DOF arm, 4WD chassis
 
-- Computer Vision: YOLOv5 for object detection
+- Computer Vision: YOLOv8 for object detection
 
 - Web Stack: Flask backend + Next.js frontend
 
