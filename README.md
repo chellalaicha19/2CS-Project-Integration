@@ -22,17 +22,14 @@ A comprehensive distributed robotics control system developed as a team project,
 
 ## 🎥 System Demonstration
 
-![Robot Car](docs/robot-car.jpg)
 *Complete robotic system with 4DOF arm and mobile platform*
+
+![Robot Car](docs/car.jpg)
+
+*Web-based control dashboard including detected objects and system status*
 
 ![Dashboard](docs/dashboard.png)
-*Web-based control dashboard*
 
-![Control Part](docs/robot-car.jpg)
-*Complete robotic system with 4DOF arm and mobile platform*
-
-![Status Part](assets/software/dashboard-screenshot.png)
-*Web-based control dashboard*
 
 ## 🏗️ System Architecture <a id="system-architecture"></a>
 
