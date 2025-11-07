@@ -2,6 +2,14 @@
 
 A comprehensive distributed robotics control system developed as a team project, featuring real-time control, computer vision, and system monitoring capabilities.
 
+## 🚀 Quick Navigation
+- [Projects Overview](#projects-Components)
+- [Architecture](#system-architecture) 
+- [Workflow](#system-workflow)
+- [Technical Features](#key-technical-feature)
+- [Project Details](#specific-details-about-the-project)
+- [Future Insights](#future-insights)
+
 ## 📦 Project Components
 
 | Component | Role | Technologies | Repository |
@@ -123,7 +131,7 @@ Status Updates → All components report back to main control app
 
 - Team: 5 members
 
-## Key Insights from the Report:
+## Future Insights :
 - Project Goal: Mobile robot that detects and picks up objects using computer vision
 
 - Integration: All components work together as described in your architecture
