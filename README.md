@@ -10,7 +10,7 @@ A comprehensive distributed robotics control system developed as a team project,
 - [Project Details](#specific-details-about-the-project)
 - [Future Insights](#future-insights)
 
-## 📦 Project Components
+## 📦 Project Components <a id="project-Components"></a>
 
 | Component | Role | Technologies | Repository |
 |-----------|------|--------------|------------|
@@ -20,7 +20,21 @@ A comprehensive distributed robotics control system developed as a team project,
 | **Live Streaming Module** | Real-time object detection with YOLOv5 | Python, OpenCV, YOLOv5 | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Livestream-code) |
 | **System Monitoring** | Raspberry Pi health monitoring | Python, System Monitoring | [:link: View Repository](https://github.com/7afidhou/2CS_Project_RaspberryPi-status-code) |
 
-## 🏗️ System Architecture
+## 🎥 System Demonstration
+
+![Robot Car](docs/robot-car.jpg)
+*Complete robotic system with 4DOF arm and mobile platform*
+
+![Dashboard](docs/dashboard.png)
+*Web-based control dashboard*
+
+![Control Part](docs/robot-car.jpg)
+*Complete robotic system with 4DOF arm and mobile platform*
+
+![Status Part](assets/software/dashboard-screenshot.png)
+*Web-based control dashboard*
+
+## 🏗️ System Architecture <a id="system-architecture"></a>
 
 ```mermaid
 graph TB
@@ -61,7 +75,7 @@ graph TB
     MON --> GUI
 
 ```
-## 🔄 System Workflow
+## 🔄 System Workflow <a id="system-workflow"></a>
 User Input → Main Control App receives commands via GUI
 
 Command Distribution → Control app routes commands to appropriate subsystems
@@ -74,7 +88,7 @@ Visual Feedback → Live streaming provides video feedback to user
 
 Status Updates → All components report back to main control app
 
-## 🎯 Key Technical Features
+## 🎯 Key Technical Features <a id="key-technical-feature"></a>
 
 ### Integrated Control Architecture
 - Distributed system design with modular components
@@ -122,7 +136,7 @@ Status Updates → All components report back to main control app
 - Log aggregation and analysis
 
 
-## Specific Details About the Project:
+## Specific Details About the Project: <a id="specific-details-about-the-project"></a>
 - Hardware: Raspberry Pi 3, Pi Camera, 4 DOF arm, 4WD chassis
 
 - Computer Vision: YOLOv5 for object detection
@@ -131,7 +145,7 @@ Status Updates → All components report back to main control app
 
 - Team: 5 members
 
-## Future Insights :
+## Future Insights : <a id="future-insights"></a>
 - Project Goal: Mobile robot that detects and picks up objects using computer vision
 
 - Integration: All components work together as described in your architecture
