@@ -3,13 +3,14 @@
 A comprehensive distributed robotics control system developed as a team project, featuring real-time control, computer vision, and system monitoring capabilities.
 
 ## 🚀 Quick Navigation
-- [Projects Overview](#project-components)
+- [Projects Components](#project-components)
 - [System Demonstration](#demo)
 - [Architecture](#system-architecture) 
 - [Workflow](#system-workflow)
 - [Technical Features](#key-technical-feature)
 - [Project Details](#specific-details-about-the-project)
-- [Future Insights](#future-insights)
+- [Team](#team)
+- [Project Impact & Future Work](#future-insights)
 
 ## 📦 Project Components <a id="project-components"></a>
 
@@ -18,7 +19,7 @@ A comprehensive distributed robotics control system developed as a team project,
 | **Main Control Application** | Web dashboard & system coordinator | Python, Flask, Next.js | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Full-Robot-Control-App) |
 | **Robotic Arm Control** | 4 DOF arm inverse kinematics | Python, Servo Control, GPIO | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Arm-code) |
 | **Vehicle Control System** | 4WD mobile platform control | Python, Motor Drivers, PWM | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Car-control-code) |
-| **Live Streaming Module** | Real-time object detection with YOLOv5 | Python, OpenCV, YOLOv5 | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Livestream-code) |
+| **Live Streaming Module** | Real-time object detection with YOLOv8 | Python, OpenCV, YOLOv8 | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Livestream-code) |
 | **System Monitoring** | Raspberry Pi health monitoring | Python, System Monitoring | [:link: View Repository](https://github.com/7afidhou/2CS_Project_RaspberryPi-status-code) |
 
 ## 🎥 System Demonstration <a id="demo"></a>
@@ -29,7 +30,7 @@ A comprehensive distributed robotics control system developed as a team project,
 
 *Web-based control dashboard including detected objects and system status*
 
-![Dashboard](docs/dashboard.jng)
+![Dashboard](docs/dashboard.png)
 
 
 ## 🏗️ System Architecture <a id="system-architecture"></a>
@@ -116,7 +117,7 @@ Status Updates → All components report back to main control app
 - Path execution and odometry tracking
 
 ### Computer Vision Pipeline
-- Multi-camera streaming infrastructure
+- Camera streaming infrastructure
 
 - Real-time video processing with OpenCV
 
@@ -134,16 +135,28 @@ Status Updates → All components report back to main control app
 - Log aggregation and analysis
 
 
-## Specific Details About the Project: <a id="specific-details-about-the-project"></a>
+## 🛠️ Specific Details About the Project: <a id="specific-details-about-the-project"></a>
 - Hardware: Raspberry Pi 3, Pi Camera, 4 DOF arm, 4WD chassis
 
 - Computer Vision: YOLOv8 for object detection
 
 - Web Stack: Flask backend + Next.js frontend
 
-- Team: 5 members
+ ## 👥 Team <a id="team"></a>
 
-## Future Insights : <a id="future-insights"></a>
+**National Higher School of Computer Science - Sidi Bel Abbes**  
+**Promotion: 2024/2025**
+
+**Team Members:**
+- Haouari Mohamed Abdelhafidh
+- ALIBELHADJ Youcef  
+- CHELLAL Aicha
+- HADJABDERRAHMANE Ahlem Chahinez
+- LARIBI Ouissem Zahra
+
+**Supervisor:** P. Abdellatif Rahmoun
+
+## 🌟 Project Impact & Future Work : <a id="future-insights"></a>
 - Project Goal: Mobile robot that detects and picks up objects using computer vision
 
 - Integration: All components work together as described in your architecture
