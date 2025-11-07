@@ -6,11 +6,11 @@ A comprehensive distributed robotics control system developed as a team project,
 
 | Component | Role | Technologies | Repository |
 |-----------|------|--------------|------------|
-| **Main Control Application** | Central GUI & system coordinator | Python, Threading | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Full-Robot-Control-App) |
-| **Robotic Arm Control** | Inverse kinematics & servo control | Python, Robotics, GPIO | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Arm-code) |
-| **Vehicle Control System** | Navigation & motor control | Python, Motor Drivers, PWM | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Car-control-code) |
-| **Live Streaming Module** | Real-time video & computer vision | Python, OpenCV, Streaming | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Livestream-code) |
-| **System Monitoring** | Hardware health & status monitoring | Python, System Monitoring | [:link: View Repository](https://github.com/7afidhou/2CS_Project_RaspberryPi-status-code) |
+| **Main Control Application** | Web dashboard & system coordinator | Python, Flask, Next.js | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Full-Robot-Control-App) |
+| **Robotic Arm Control** | 4 DOF arm inverse kinematics | Python, Servo Control, GPIO | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Arm-code) |
+| **Vehicle Control System** | 4WD mobile platform control | Python, Motor Drivers, PWM | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Car-control-code) |
+| **Live Streaming Module** | Real-time object detection with YOLOv5 | Python, OpenCV, YOLOv5 | [:link: View Repository](https://github.com/7afidhou/2CS_Project_Livestream-code) |
+| **System Monitoring** | Raspberry Pi health monitoring | Python, System Monitoring | [:link: View Repository](https://github.com/7afidhou/2CS_Project_RaspberryPi-status-code) |
 
 ## 🏗️ System Architecture
 
@@ -77,7 +77,7 @@ Status Updates → All components report back to main control app
 
 - State synchronization across subsystems
 
-### 🦾 Advanced Robotic Arm System
+### Advanced Robotic Arm System
 - Inverse kinematics algorithms for precise positioning
 
 - Servo motor control with smooth trajectory planning
@@ -112,3 +112,22 @@ Status Updates → All components report back to main control app
 - Performance metrics collection
 
 - Log aggregation and analysis
+
+
+## Specific Details About the Project:
+- Hardware: Raspberry Pi 3, Pi Camera, 4 DOF arm, 4WD chassis
+
+- Computer Vision: YOLOv5 for object detection
+
+- Web Stack: Flask backend + Next.js frontend
+
+- Team: 5 members
+
+## Key Insights from the Report:
+- Project Goal: Mobile robot that detects and picks up objects using computer vision
+
+- Integration: All components work together as described in your architecture
+
+- Success: Functional prototype achieved all objectives
+
+- Future Work: Autonomous navigation, enhanced detection, cloud integration
